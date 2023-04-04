@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Blogs from "../pages/blogs";
 import ContactUs from "../pages/contactUs";
 import Home from "../pages/home";
+import "./style.css";
 
 const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
       <Router>
         <div className="App">
           <ul className="flex justify-center space-x-10 text-2xl p-4">
-            <li className="">
+            <li>
               <Link to="/">Home</Link>
             </li>
             <li>
