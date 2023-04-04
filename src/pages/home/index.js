@@ -62,7 +62,7 @@ const Home = () => {
   return (
     <>
       <div className="flex justify-center h-[500px] items-center text-4xl">
-        Hello! Welcome to the Blog Site
+        Hello! Welcome to the Ayuu Blogs
       </div>
       {blogData.map(Cards)}
       <div className="flex justify-center">
