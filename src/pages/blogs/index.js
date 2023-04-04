@@ -68,7 +68,7 @@ export default function Blogs() {
     {
       label: "All Blogs",
       value: "All Blogs",
-      desc: blogManCardData.map(BoxCards),
+      desc: blogData.map(Cards),
     },
     {
       label: "Profile",

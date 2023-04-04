@@ -62,7 +62,12 @@ const Home = () => {
   return (
     <>
       <div className="flex justify-center h-[500px] items-center text-4xl">
-        Hello! Welcome to the Ayuu Blogs
+        Welcome to
+        <a
+          href="/"
+          className="font-medium transition-colors text-teal-500 hover:text-blue-500">
+          &nbsp;AyuuBlogs
+        </a>
       </div>
       {blogData.map(Cards)}
       <div className="flex justify-center">
